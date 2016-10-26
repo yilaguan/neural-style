@@ -28,10 +28,13 @@ pip 8.1.1 from /usr/local/lib/python2.7/dist-packages (python 2.7)
 
 (3)And you need to install tensorflow in your ubuntu, the cammand as below:
 `sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.10.0-cp27-none-linux_x86_64.whl`
+
 Of course , you can use the last version of tensorflow.And as above, the tensorflow CPU only and ubuntu 64-bit
 
 (4)install neural-style
-`git clone `
+`git clone https://github.com/yilaguan/neural-style.git`
+
+(5)please download [net] in the root of neural-style
 
 
 
