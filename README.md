@@ -15,6 +15,25 @@ improved, but it would probably take improvements in TensorFlow itself as well
 to get it to operate at the same speed as other implementations. As of now, it
 seems to be around 3x slower than implementations using Torch.
 
+##Install
+(1)You need install some requirements before you install tensorflow.
+`sudo apt-get isntall python-pip python-dev python-setuptools build-essential
+sudo pip install --upgrade pip
+sudo pip install --upgrade virtualenv`
+(2)after than you can check whether pip is upgrade:
+`pip --version`
+pip 8.1.1 from /usr/local/lib/python2.7/dist-packages (python 2.7)
+
+(3)And you need to install tensorflow in your ubuntu, the cammand as below:
+`sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.10.0-cp27-none-linux_x86_64.whl`
+Of course , you can use the last version of tensorflow.And as above, the tensorflow CPU only and ubuntu 64-bit
+(4)install neural-style
+`git clone `
+
+
+
+
+
 ## Running
 
 `python neural_style.py --content <content file> --styles <style file> --output <output file>`
